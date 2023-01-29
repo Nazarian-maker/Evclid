@@ -55,7 +55,7 @@
     src: local('Muller Bold'), local('Muller-Bold'),
         url('../fonts/MontserratBold.woff2') format('woff2'),
         url('../fonts/MontserratBold.woff') format('woff');
-    font-weight: 900;
+    font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
@@ -123,9 +123,13 @@ img {
 }
 
 .container {
-    max-width: 1920px;
+    max-width: 1800px;
     margin: 0 auto;
-    padding: 0 75px;
+    padding: 0 15px;
+}
+
+.section-offset {
+    padding: 100px 0;
 }
 
 /* header */
@@ -133,7 +137,8 @@ img {
 .header {
     background-color: var(--color-light);
     border-radius: 0px 0px 32px 32px;
-    padding: 9px 0;
+    padding: 8px 0;
+    box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
 }
 
 .header__container {
@@ -148,15 +153,105 @@ img {
 .nav__list {
     display: flex;
     align-items: center;
-    gap: 87px;
+    gap: 89px;
 }
 
 .header__logo {
     margin-right: auto;
+    flex-shrink: 0;
 }
 
 .nav__item {
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
+}
+
+.svg {
+    flex-shrink: 0;
+}
+
+/* hero */
+
+.hero__offset {
+    padding: 50px 15px;
+    position: relative;
+}
+
+.hero__img-one {
+    background: url(../img/hero-bg-1.jpg);
+}
+
+.hero__bg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 620px;
+    max-width: 1770px;
+    border-radius: 32px;
+    overflow: hidden;
+}
+
+.hero__content {
+    max-width: 837px;
+    padding-top: 100px;
+    padding-left: 65px;
+}
+
+.hero__title {
+    margin: 0;
+    margin-bottom: 24px;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 85px;
+    color: var(--color-light);
+}
+
+.hero__descr {
+    margin: 0;
+    margin-bottom: 90px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--color-light);
+}
+
+.btn {
+    display: inline-block;
+    border: none;
+    padding: 20px 38px;
+    border-radius: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: var(--color-light);
+    background: var(--color-accent);
+}
+
+.hero__btn {
+    min-width: 280px;
+    padding: 30px 39px;
+}
+
+.marker {
+    position: absolute;
+    bottom: 63px;
+    left: 48%;
+    display: flex;
+    justify-content: space-between;
+    width: 85px;
+    height: 30px;
+}
+
+.marker__item {
+    width: 15px;
+    height: 15px;
+    background: #CACACA;
+    border-radius: 50%;
+}
+
+.marker__item-active {
+    background: #fff;
 }
