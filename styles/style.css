@@ -454,3 +454,43 @@ img {
     background: transparent;
     border: 1px solid #000000;
 }
+
+/* questions */
+
+.questions__title {
+    padding-top: 20px;
+    margin-bottom: 32px;
+}
+
+.accordion__item {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #CACACA;
+}
+
+.accordion__item:first-child {
+    border-top: 1px solid #cacaca;
+}
+
+.accordion__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.plus {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background:
+        linear-gradient(#000 0 0),
+        linear-gradient(#000 0 0),
+        #CACACA;
+    background-position: center;
+    background-size: 50% 2px, 2px 50%;
+    /*thickness = 2px, length = 50% (25px)*/
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
