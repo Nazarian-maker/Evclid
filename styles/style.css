@@ -508,7 +508,6 @@ img {
 
 .footer__content {
     display: flex;
-    justify-content: space-between;
     padding: 50px 16px;
 }
 
@@ -516,6 +515,7 @@ img {
     min-width: 252px;
     display: flex;
     flex-direction: column;
+    margin-right: auto;
 }
 
 .footer__logo {
@@ -545,4 +545,58 @@ img {
 
 .icon-color {
     fill: #666;
+}
+
+.footer__form {
+    max-width: 570px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    margin-right: 236px;
+}
+
+.form__title {
+    margin: 0;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+    color: #CACACA;
+}
+
+.form__input {
+    display: block;
+    width: 570px;
+    padding: 20px 24px;
+    background: #414141;
+    border: none;
+    border-radius: 16px;
+}
+
+.form__textarea {
+    padding: 14px 447px 104px 24px;
+    background: #414141;
+    border: none;
+    border-radius: 16px;
+}
+
+.form__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__btn {
+    padding: 19px 52px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.footer__right {
+    max-width: 363px;
+}
+
+.footr__descr {
+    margin: 0;
+    padding-top: 88px;
+    color: #CACACA;
 }
