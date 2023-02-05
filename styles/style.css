@@ -134,6 +134,10 @@ img {
     padding: 100px 0;
 }
 
+.burger {
+    display: none;
+}
+
 /* header */
 
 .header {
@@ -263,13 +267,13 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     height: 620px;
-    max-width: 1770px;
+    width: 100%;
     border-radius: 32px;
     overflow: hidden;
 }
 
 .hero__content {
-    max-width: 878px;
+    width: 878px;
     padding-top: 100px;
     padding-left: 65px;
 }
@@ -531,11 +535,12 @@ img {
 
 .carousel__item {
     display: flex;
-    gap: 142px;
+    gap: 191px;
 }
 
 .carousel__wrapper {
     position: relative;
+    width: 40%;
 }
 
 .carousel__title {
@@ -548,10 +553,10 @@ img {
 
 .carousel__descr {
     margin: 0;
-    max-width: 758px;
 }
 
 .carousel__img {
+    height: 100%;
     object-fit: cover;
     border-radius: 32px;
     overflow: hidden;
@@ -636,6 +641,11 @@ img {
     display: none;
 }
 
+.plus {
+    min-width: 50px;
+    min-height: 50px;
+}
+
 .accordion__link {
     display: flex;
     justify-content: space-between;
@@ -645,6 +655,7 @@ img {
     border-bottom: 1px solid #CACACA;
     margin-top: -1px;
     position: relative;
+    font-weight: 700;
     font-size: 24px;
     line-height: 32px;
 }
@@ -737,7 +748,7 @@ img {
 .form__input {
     align-self: center;
     display: block;
-    width: 570px;
+    width: 100%;
     padding: 20px 24px;
     background: var(--form-color);
     border: none;
