@@ -392,8 +392,9 @@ img {
 }
 
 .advantage__descr {
+    padding-right: 35px;
     margin: 0;
-    max-width: 433px;
+    width: 465px;
     color: var(--color-light);
     font-weight: 700;
 }
@@ -551,6 +552,7 @@ img {
 }
 
 .carousel__img {
+    object-fit: cover;
     border-radius: 32px;
     overflow: hidden;
 }
