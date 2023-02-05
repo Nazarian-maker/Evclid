@@ -367,7 +367,6 @@ img {
 
 .advantage {
     display: flex;
-    flex-wrap: wrap;
     gap: 32px;
 }
 
@@ -376,7 +375,7 @@ img {
     align-items: flex-end;
     background: url(../img/about-img.jpg) no-repeat center;
     background-size: cover;
-    min-width: 868px;
+    width: 49%;
     height: 622px;
     border-radius: 32px;
     overflow: hidden;
@@ -424,17 +423,20 @@ img {
 }
 
 .advantage__right {
-    max-width: 870px;
+    width: 49%;
     display: flex;
     flex-direction: column;
     gap: 32px;
 }
 
 .article {
-    padding: 65px 118px 65px 60px;
+    height: 295px;
+    padding: 0px 79px 0px 60px;
     display: flex;
     align-items: center;
     gap: 50px;
+    border: 1px solid #CACACA;
+    border-radius: 32px;
 }
 
 .article__icons {
@@ -555,7 +557,7 @@ img {
 
 .carousel__list {
     display: flex;
-    position: absolute;
+    padding-top: 13px;
     bottom: 0;
     left: 0;
 }
@@ -627,8 +629,9 @@ img {
     margin-bottom: 32px;
 }
 
-.accordion__item {
-    height: 112px;
+.accordion__descr {
+    margin: 0;
+    display: none;
 }
 
 .accordion__link {
@@ -642,7 +645,6 @@ img {
     position: relative;
     font-size: 24px;
     line-height: 32px;
-    transition: color .3s ease-in-out, border-color .3s ease-in-out, fill .3s ease-in-out;
 }
 
 .accordion__link:focus,
@@ -676,14 +678,13 @@ img {
 
 .footer__content {
     display: flex;
+    justify-content: space-between;
     padding: 50px 16px;
 }
 
 .footer__left {
-    min-width: 252px;
     display: flex;
     flex-direction: column;
-    margin-right: auto;
 }
 
 .footer__logo {
@@ -708,7 +709,8 @@ img {
 
 .social {
     display: flex;
-    gap: 25px;
+    width: 58%;
+    justify-content: space-between;
 }
 
 .icon-color {
@@ -716,11 +718,10 @@ img {
 }
 
 .footer__form {
-    max-width: 570px;
+    padding-left: 117px;
     display: flex;
     flex-direction: column;
     gap: 26px;
-    margin-right: 236px;
 }
 
 .form__title {
@@ -732,6 +733,7 @@ img {
 }
 
 .form__input {
+    align-self: center;
     display: block;
     width: 570px;
     padding: 20px 24px;
@@ -742,7 +744,8 @@ img {
 }
 
 .form__textarea {
-    padding: 14px 447px 104px 24px;
+    align-self: center;
+    padding: 14px 347px 104px 24px;
     background: var(--form-color);
     border: none;
     border-radius: 16px;

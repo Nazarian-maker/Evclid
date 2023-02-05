@@ -1,0 +1,51 @@
+/* @media (max-width: 1920px) {
+    .advantage__left {
+        width: 100%;
+    }
+
+    .advantage__descr {
+        max-width: 80%;
+    }
+
+    .advantage__right {
+        max-width: 100%;
+    }
+
+    .footer__content {
+        justify-content: space-between;
+    }
+
+    .footer__left {
+        margin-right: 0;
+    }
+
+    .footer__form {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 1400px) {
+    .header__container {
+        justify-content: space-between;
+    }
+
+    .header__logo {
+        margin-right: 0;
+    }
+
+    .header__nav {
+        margin-right: 0;
+    }
+
+    .nav__link {
+        font-size: 16px;
+    }
+
+    .footer__content {
+        justify-content: space-around;
+    }
+
+    .footer__right {
+        display: none;
+    }
+} */
