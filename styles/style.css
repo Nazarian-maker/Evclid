@@ -387,7 +387,7 @@ img {
 
 .frame {
     background: rgba(0, 0, 0, 0.5);
-    border-radius: 32px;
+    border-radius: inherit;
     padding: 50px;
     display: flex;
     justify-content: space-between;
