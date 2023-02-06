@@ -254,7 +254,7 @@ img {
 /* hero */
 
 .hero__offset {
-    padding: 50px 15px;
+    padding: 50px 0;
     position: relative;
 }
 
@@ -267,13 +267,13 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     height: 620px;
-    width: 100%;
+    width: 93%;
     border-radius: 32px;
     overflow: hidden;
 }
 
 .hero__content {
-    width: 878px;
+    max-width: 878px;
     padding-top: 100px;
     padding-left: 65px;
 }
@@ -435,10 +435,8 @@ img {
 }
 
 .article {
-    height: 295px;
-    padding: 0px 79px 0px 60px;
+    padding: 65px 79px 65px 60px;
     display: flex;
-    align-items: center;
     gap: 50px;
     border: 1px solid #CACACA;
     border-radius: 32px;
@@ -448,7 +446,7 @@ img {
     display: flex;
     align-items: flex-end;
     flex-shrink: 0;
-    min-width: 190px;
+    width: 190px;
     height: 165px;
     position: relative;
     background-repeat: no-repeat;
@@ -464,7 +462,8 @@ img {
 .article__icon-box {
     width: 119px;
     height: 132px;
-    background: url(../img/package.png);
+    background: url(../img/package.png) no-repeat center;
+    background-size: cover;
     position: absolute;
     left: 71px;
     top: 2px;
@@ -473,7 +472,8 @@ img {
 .article__icon-detail {
     width: 136px;
     height: 136px;
-    background: url(../img/Frame\ 291.png);
+    background: url(../img/Frame\ 291.png) no-repeat center;
+    background-size: cover;
     position: absolute;
     left: 55px;
     top: 1px;
@@ -556,6 +556,7 @@ img {
 }
 
 .carousel__img {
+    width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 32px;
@@ -628,7 +629,7 @@ img {
 /* questions */
 
 .questions {
-    padding-top: 20px;
+    padding-top: 6px;
     padding-bottom: 100px;
 }
 
@@ -723,7 +724,7 @@ img {
 .social {
     display: flex;
     width: 58%;
-    justify-content: space-between;
+    gap: 25px;
 }
 
 .icon-color {
@@ -758,7 +759,8 @@ img {
 
 .form__textarea {
     align-self: center;
-    padding: 14px 347px 104px 24px;
+    padding: 14px 24px 104px;
+    width: 100%;
     background: var(--form-color);
     border: none;
     border-radius: 16px;

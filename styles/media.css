@@ -43,7 +43,7 @@
     }
 
     .header__container {
-        padding: 18px 15px;
+        padding: 18px 50px;
     }
 
     .header__nav {
@@ -55,7 +55,6 @@
         width: 30px;
         height: 23px;
         display: block;
-        margin-left: 35px;
     }
 
     .burger span {
@@ -89,10 +88,6 @@
         padding: 0;
         width: 150px;
         height: 48px;
-    }
-
-    .search-icon {
-        margin-right: 18px;
     }
 
     .hero__offset {
@@ -129,8 +124,13 @@
     }
 
     .marker {
-        bottom: 57px;
-        left: 46.5%;
+        bottom: 56px;
+        left: 46%;
+    }
+
+    .section__descr {
+        max-width: 100%;
+        margin-bottom: 59px;
     }
 
     .about__title {
@@ -138,11 +138,15 @@
     }
 
     .frame {
-        padding: 50px 32px 41px 51px;
+        padding: 50px;
+    }
+
+    .article {
+        padding: 65px 116px 63px 76px;
     }
 
     .section-offset {
-        padding-top: 92px;
+        padding-top: 82px;
         padding-bottom: 82px;
     }
 
@@ -151,7 +155,7 @@
     }
 
     .carousel__wrapper {
-        width: 50%;
+        width: 47%;
     }
 
     .carousel__list {
@@ -160,11 +164,13 @@
 
     .questions {
         padding-top: 0;
+        padding-bottom: 75px;
     }
 
     .accordion__link {
         font-size: 20px;
         font-weight: 700;
+        padding: 32px 0;
     }
 
     .footer__content {
@@ -181,11 +187,12 @@
     }
 
     .footer__form {
+        width: 59%;
         padding-left: 0;
     }
 
-    .form__textarea {
-        padding: 14px 288px 94px 25px;
+    .footer__btn {
+        padding: 19px 37px;
     }
 
 }
@@ -193,12 +200,8 @@
 @media (max-width: 960px) {
 
     .hero__content {
-        width: 638px;
+        max-width: 638px;
         padding-top: 100px;
-    }
-
-    .article {
-        padding: 0px 75px 0px 60px;
     }
 
     .footer__content {
@@ -215,6 +218,153 @@
 
     .footer__nav {
         margin-bottom: 45px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .header__container {
+        padding: 2px 50px;
+    }
+
+    .hero__bg {
+        padding: 0 40px;
+        width: 87%;
+    }
+
+    .hero__img-one {
+        background-image: url(../img/768/low-angle-photo-of-balconies-2462015\ 1.jpg);
+    }
+
+    .hero__content {
+        padding-top: 166px;
+        padding-left: 0;
+        max-width: 100%;
+    }
+
+    .hero__title {
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 61px;
+    }
+
+    .hero__descr {
+        margin-bottom: 58px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .marker {
+        left: 45%;
+    }
+
+    .hero__offset {
+        padding: 38px 0;
+    }
+
+    .about__title {
+        margin-bottom: 19px;
+    }
+
+    .section__descr {
+        margin-bottom: 50px;
+    }
+
+    .advantage__left {
+        height: 650px;
+        background-image: url(../img/768/Rectangle\ 2.jpg);
+    }
+
+    .frame {
+        padding: 36px 40px 34px 40px;
+    }
+
+    .article {
+        align-items: center;
+        gap: 10px;
+        padding: 34px 45px;
+    }
+
+    .article__icons {
+        width: 114px;
+        height: 99px;
+    }
+
+    .article__circle {
+        height: 72px;
+        width: 72px;
+    }
+
+    .article__icon-box {
+        left: 42px;
+        width: 72px;
+        height: 79px;
+    }
+
+    .article__icon-detail {
+        left: 28px;
+        width: 81px;
+        height: 81px;
+    }
+
+    .section-offset {
+        padding-top: 76px;
+        padding-bottom: 49px;
+    }
+
+    .work__steps {
+        gap: 0;
+        justify-content: space-between;
+    }
+
+    .carousel__item {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .carousel__item {
+        gap: 38px;
+    }
+
+    .carousel__wrapper {
+        width: 100%;
+    }
+
+    .questions {
+        padding-bottom: 108px;
+    }
+
+    .accordion__link {
+        padding: 30px 0;
+    }
+
+    .footer__nav {
+        display: none;
+    }
+
+    .footer__left {
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .footer__form {
+        width: 100%;
+    }
+
+    .form__input {
+        width: 81%;
+        align-self: start;
+    }
+
+    .form__textarea {
+        width: 81%;
+        align-self: start;
+    }
+
+    .form__wrapper {
+        width: 81%;
     }
 
 }
