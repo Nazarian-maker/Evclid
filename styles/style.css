@@ -131,7 +131,8 @@ img {
 }
 
 .section-offset {
-    padding: 100px 0;
+    padding-top: 101px;
+    padding-bottom: 108px;
 }
 
 .burger {
@@ -476,18 +477,18 @@ img {
 /* work */
 
 .work__title {
-    margin-bottom: 50px;
+    margin-bottom: 47px;
 }
 
-.work__steps {
+.work__list {
     display: flex;
     gap: 85px;
     font-size: 18px;
     line-height: 22px;
-    margin-bottom: 48px;
+    margin-bottom: 43px;
 }
 
-.work__steps-active {
+.work__steps--active {
     color: #E1670E;
 }
 
@@ -515,14 +516,18 @@ img {
     opacity: 1;
 }
 
-.carousel__item {
+.carousel {
     display: flex;
-    gap: 191px;
+    justify-content: space-between;
+    gap: 50px;
 }
 
-.carousel__wrapper {
-    position: relative;
+.carousel__left {
     width: 40%;
+    min-height: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .carousel__title {
@@ -547,9 +552,6 @@ img {
 
 .carousel__list {
     display: flex;
-    padding-top: 13px;
-    bottom: 0;
-    left: 0;
 }
 
 .list__item:not(:last-child) {
@@ -606,6 +608,14 @@ img {
 .work__btn-style:active {
     background-color: #000;
     border-color: #000;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content--active {
+    display: flex;
 }
 
 /* questions */
@@ -718,6 +728,7 @@ img {
     display: flex;
     flex-direction: column;
     gap: 26px;
+    width: 39%;
 }
 
 .form__title {
