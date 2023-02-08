@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Евклид</title>
     <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/media.css">
 
@@ -65,24 +66,55 @@
     </header>
 
     <main class="main">
-        <section class="hero hero__offset">
-            <div class="container hero__bg hero__img-one">
-                <div class="hero__content">
-                    <h1 class="hero__title">
-                        Проектные решения любой сложности
-                    </h1>
-                    <p class="hero__descr">
-                        Есть над чем задуматься: базовые сценарии поведения пользователей и&nbsp;по&nbsp;сей день
-                        остаются уделом проектантов
-                    </p>
-                    <button class="btn hero__btn btn-reset">Заказать расчёт</button>
+        <section class="hero">
+            <div class="container hero__container">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"
+                            style="background-image: url(/img/hero-bg-1.jpg);border-radius: 32px;">
+                            <div class="hero__content">
+                                <h1 class="hero__title">
+                                    Проектные решения любой сложности
+                                </h1>
+                                <p class="hero__descr">
+                                    Есть над чем задуматься: базовые сценарии поведения пользователей и&nbsp;по&nbsp;сей
+                                    день
+                                    остаются уделом проектантов
+                                </p>
+                                <button class="btn hero__btn btn-reset">Заказать расчёт</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide"
+                            style="background-image: url(/img/hero-bg-2.jpg);border-radius: 32px;">
+                            <div class="hero__content">
+                                <h1 class="hero__title">
+                                    Проектные решения любой сложности
+                                </h1>
+                                <p class="hero__descr">
+                                    Есть над чем задуматься: базовые сценарии поведения пользователей и&nbsp;по&nbsp;сей
+                                    день
+                                    остаются уделом проектантов
+                                </p>
+                                <button class="btn hero__btn btn-reset">Заказать расчёт</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide"
+                            style="background-image: url(/img/hero-bg-3.jpg);border-radius: 32px;">
+                            <div class="hero__content">
+                                <h1 class="hero__title">
+                                    Проектные решения любой сложности
+                                </h1>
+                                <p class="hero__descr">
+                                    Есть над чем задуматься: базовые сценарии поведения пользователей и&nbsp;по&nbsp;сей
+                                    день
+                                    остаются уделом проектантов
+                                </p>
+                                <button class="btn hero__btn btn-reset">Заказать расчёт</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
                 </div>
-            </div>
-            <ul class="marker list-reset">
-                <li class="marker__item marker__item-active"></li>
-                <li class="marker__item"></li>
-                <li class="marker__item"></li>
-            </ul>
         </section>
         <section id="about" class="about">
             <div class="container">
@@ -445,6 +477,9 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="/index.js"></script>
 
 </body>
 
