@@ -95,17 +95,6 @@ img {
     cursor: pointer;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    border: 0;
-    clip: rect(0 0 0 0);
-}
-
 /* ---------------------------------------------------------- */
 
 :root {
@@ -365,7 +354,6 @@ img {
     width: 49%;
     min-height: 622px;
     border-radius: 32px;
-    overflow: hidden;
 }
 
 .frame {
@@ -378,10 +366,14 @@ img {
     width: 100%;
 }
 
+.outframe {
+    display: none;
+}
+
 .advantage__descr {
     padding-right: 35px;
     margin: 0;
-    width: 465px;
+    max-width: 465px;
     color: var(--color-light);
     font-weight: 700;
 }
@@ -542,12 +534,18 @@ img {
     margin: 0;
 }
 
+.carousel__wrapper {
+    margin-bottom: 10px;
+}
+
+.carousel__right {
+    overflow: hidden;
+    border-radius: 32px;
+}
+
 .carousel__img {
-    width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 32px;
-    overflow: hidden;
 }
 
 .carousel__list {
@@ -635,17 +633,18 @@ img {
 }
 
 .ui-accordion-content {
-    min-height: auto;
+    height: auto;
     padding-bottom: 40px;
 }
 
-.accordion__content {
+.questions__accordion {
     border-bottom: 1px solid #CACACA;
 }
 
 .accordion__title {
     border-top: 1px solid #CACACA;
     padding: 39px 0;
+    padding-right: 55px;
     margin: 0;
     position: relative;
     font-weight: 700;
@@ -688,6 +687,7 @@ img {
 .footer__left {
     display: flex;
     flex-direction: column;
+    width: 21%;
 }
 
 .footer__logo {
@@ -721,11 +721,10 @@ img {
 }
 
 .footer__form {
-    padding-left: 117px;
     display: flex;
     flex-direction: column;
     gap: 26px;
-    width: 39%;
+    width: 32%;
 }
 
 .form__title {
@@ -748,8 +747,10 @@ img {
 }
 
 .form__textarea {
+    resize: none;
     align-self: center;
-    padding: 14px 24px 104px;
+    padding: 14px 24px;
+    height: 150px;
     width: 100%;
     background: var(--form-color);
     border: none;

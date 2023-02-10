@@ -23,12 +23,23 @@
 
     .advantage__left {
         width: 100%;
-        height: 640px;
-        background-image: url(../img/1024/Rectangle\ 2.jpg);
+        min-height: 640px;
     }
 
     .advantage__right {
         width: 100%;
+    }
+
+    .footer__content {
+        justify-content: space-around;
+    }
+
+    .footer__form {
+        width: 40%;
+    }
+
+    .form__title {
+        font-size: 45px;
     }
 
     .footer__right {
@@ -90,23 +101,26 @@
         height: 48px;
     }
 
-    .hero__offset {
+    .hero {
         padding: 40px 0;
+        height: 748px;
     }
 
-    .hero__bg {
-        height: 668px;
-        width: 90%;
+    .swiper-first--size {
+        background-image: url(../img/1024/low-angle-photo-of-balconies-2462015\ 1.jpg) !important;
     }
 
-    .hero__img-one {
-        background-image: url(../img/1024/low-angle-photo-of-balconies-2462015\ 1.jpg);
+    .swiper-second--size {
+        background-image: url(../img/1024/hero-pic-1024-2.jpg) !important;
+    }
+
+    .swiper-third--size {
+        background-image: url(../img/1024/hero-pic-1024-3.jpg) !important;
     }
 
     .hero__content {
-        width: 808px;
+        max-width: 782px;
         padding-top: 160px;
-        padding-left: 26px;
     }
 
     .hero__title {
@@ -121,11 +135,6 @@
         font-size: 20px;
         line-height: 24px;
         margin-bottom: 60px;
-    }
-
-    .marker {
-        bottom: 56px;
-        left: 46%;
     }
 
     .section__descr {
@@ -150,31 +159,29 @@
         padding-bottom: 82px;
     }
 
-    .carousel__item {
-        gap: 50px;
+    .work__list {
+        margin-bottom: 52px;
     }
 
-    .carousel__wrapper {
-        width: 47%;
-    }
-
-    .carousel__list {
-        padding-top: 24px;
+    .carousel__left {
+        width: 46%;
     }
 
     .questions {
         padding-top: 0;
-        padding-bottom: 75px;
+        padding-bottom: 78px;
     }
 
-    .accordion__link {
+    .accordion__title {
         font-size: 20px;
         font-weight: 700;
-        padding: 32px 0;
+        padding: 42px 0;
+        padding-right: 55px;
     }
 
     .footer__content {
         padding: 50px;
+        justify-content: space-between;
     }
 
     .footer__nav {
@@ -182,42 +189,15 @@
     }
 
     .footer__left {
-        padding-right: 82px;
-        margin-right: auto;
+        width: 28%;
     }
 
     .footer__form {
         width: 59%;
-        padding-left: 0;
     }
 
     .footer__btn {
         padding: 19px 37px;
-    }
-
-}
-
-@media (max-width: 960px) {
-
-    .hero__content {
-        max-width: 638px;
-        padding-top: 100px;
-    }
-
-    .footer__content {
-        flex-wrap: wrap;
-        flex-direction: column-reverse;
-        align-items: center;
-    }
-
-    .footer__left {
-        padding-top: 70px;
-        padding-right: 0;
-        margin-right: 0;
-    }
-
-    .footer__nav {
-        margin-bottom: 45px;
     }
 
 }
@@ -228,19 +208,19 @@
         padding: 2px 50px;
     }
 
-    .hero__bg {
-        padding: 0 40px;
-        width: 87%;
+    .hero {
+        padding: 41px 0;
+        height: 744px;
     }
 
-    .hero__img-one {
-        background-image: url(../img/768/low-angle-photo-of-balconies-2462015\ 1.jpg);
+    .swiper-first--size {
+        background-image: url(../img/768/low-angle-photo-of-balconies-2462015\ 1.jpg) !important;
     }
 
     .hero__content {
-        padding-top: 166px;
-        padding-left: 0;
-        max-width: 100%;
+        padding-top: 161px;
+        padding-left: 40px;
+        max-width: 590px;
     }
 
     .hero__title {
@@ -250,26 +230,18 @@
     }
 
     .hero__descr {
-        margin-bottom: 58px;
+        margin-bottom: 59px;
         font-weight: 700;
         font-size: 18px;
         line-height: 22px;
     }
 
-    .marker {
-        left: 45%;
-    }
-
-    .hero__offset {
-        padding: 38px 0;
-    }
-
     .about__title {
-        margin-bottom: 19px;
+        margin-bottom: 15px;
     }
 
     .section__descr {
-        margin-bottom: 50px;
+        margin-bottom: 54px;
     }
 
     .advantage__left {
@@ -310,13 +282,12 @@
     }
 
     .section-offset {
-        padding-top: 76px;
+        padding-top: 81px;
         padding-bottom: 49px;
     }
 
-    .work__steps {
-        gap: 0;
-        justify-content: space-between;
+    .work__list {
+        gap: 155px;
     }
 
     .carousel__item {
