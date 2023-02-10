@@ -183,22 +183,22 @@
                 </h2>
                 <ul class="work__list list-reset">
                     <li class="work__item">
-                        <button data-path="one" class="btn-reset work__step work__steps--active">
+                        <button data-path="one" data-default="one" class="btn-reset work__step work__steps--active">
                             1 шаг
                         </button>
                     </li>
                     <li class="work__item">
-                        <button data-path="two" class="btn-reset work__step">
+                        <button data-path="two" data-default="two" class="btn-reset work__step">
                             2 шаг
                         </button>
                     </li>
                     <li class="work__item">
-                        <button data-path="three" class="btn-reset work__step">
+                        <button data-path="three" data-default="three" class="btn-reset work__step">
                             3 шаг
                         </button>
                     </li>
                     <li class="work__item">
-                        <button data-path="four" class="btn-reset work__step">
+                        <button data-path="four" data-default="four" class="btn-reset work__step">
                             4 шаг
                         </button>
                     </li>
@@ -360,102 +360,71 @@
         <section class="questions">
             <div class="container">
                 <h2 class="section__title questions__title">Часто задаваемые вопросы</h2>
-                <div class="accordion">
-                    <ul class="accordion__list list-reset">
-                        <li class="accordion__item">
-                            <a class="accordion__link" href="#">
-                                Из&nbsp;чего формируется конечная стоимость проекта?
-                                <svg class="plus" width="50" height="50" viewBox="0 0 50 50" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <ellipse cx="25" cy="25" rx="25" ry="25" fill="#CACACA" />
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z"
-                                        fill="black" />
-                                </svg>
-                            </a>
-                            <p class="accordion__descr">
-                                Являясь всего лишь частью общей картины, непосредственные участники технического
-                                прогресса призывают нас
-                                к&nbsp;новым свершениям, которые, в&nbsp;свою очередь, должны быть своевременно
-                                верифицированы.
-                                Но&nbsp;высококачественный прототип будущего проекта является качественно новой ступенью
-                                первоочередных требований. А&nbsp;ещё некоторые особенности внутренней политики, которые
-                                представляют собой яркий пример континентально-европейского типа политической культуры,
-                                будут объявлены нарушающими общечеловеческие нормы этики и&nbsp;морали. И&nbsp;нет
-                                сомнений, что явные признаки победы институционализации призывают нас к&nbsp;новым
-                                свершениям, которые, в&nbsp;свою очередь, должны быть указаны как претенденты
-                                на&nbsp;роль ключевых факторов. <br>
-                                Приятно, граждане, наблюдать, как некоторые особенности внутренней политики могут быть
-                                призваны к&nbsp;ответу. Явные признаки победы институционализации набирают популярность
-                                среди определённых слоёв населения,
-                                а&nbsp;значит, должны быть объединены в&nbsp;целые кластеры себе подобных. Банальные,
-                                но&nbsp;неопровержимые выводы,
-                                а&nbsp;также многие известные личности призывают нас к&nbsp;новым свершениям, которые,
-                                в&nbsp;свою очередь, должны быть представлены в&nbsp;исключительно положительном свете.
-                            </p>
-                        </li>
-                        <li class="accordion__item">
-                            <a class="accordion__link" href="#">
-                                У&nbsp;меня есть свой проект. Сможем&nbsp;ли мы&nbsp;его доработать&nbsp;/ реализовать?
-                                <svg class="plus" width="50" height="50" viewBox="0 0 50 50" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <ellipse cx="25" cy="25" rx="25" ry="25" fill="#CACACA" />
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z"
-                                        fill="black" />
-                                </svg>
-                            </a>
-                            <p class="accordion__descr">
-
-                            </p>
-                        </li>
-                        <li class="accordion__item">
-                            <a class="accordion__link" href="#">
-                                Я&nbsp;выбираю между разными компаниями. В&nbsp;чём ваше отличие?
-                                <svg class="plus" width="50" height="50" viewBox="0 0 50 50" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <ellipse cx="25" cy="25" rx="25" ry="25" fill="#CACACA" />
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z"
-                                        fill="black" />
-                                </svg>
-                            </a>
-                            <p class="accordion__descr">
-
-                            </p>
-                        </li>
-                        <li class="accordion__item">
-                            <a class="accordion__link" href="#">
-                                Могу&nbsp;ли я&nbsp;делегировать вам работу&nbsp;/ согласование
-                                с&nbsp;подрядчиком / организацией?
-                                <svg class="plus" width="50" height="50" viewBox="0 0 50 50" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <ellipse cx="25" cy="25" rx="25" ry="25" fill="#CACACA" />
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z"
-                                        fill="black" />
-                                </svg>
-                            </a>
-                            <p class="accordion__descr">
-
-                            </p>
-                        </li>
-                        <li class="accordion__item">
-                            <a class="accordion__link" href="#">
-                                Могу&nbsp;ли я&nbsp;вернуть деньги на&nbsp;каком-либо из&nbsp;этапов работ?
-                                <svg class="plus" width="50" height="50" viewBox="0 0 50 50" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <ellipse cx="25" cy="25" rx="25" ry="25" fill="#CACACA" />
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z"
-                                        fill="black" />
-                                </svg>
-                            </a>
-                            <p class="accordion__descr">
-
-                            </p>
-                        </li>
-                    </ul>
+                <div class="accordion questions__accordion" id="accordion">
+                    <h3 class="accordion__title">Из&nbsp;чего формируется конечная стоимость проекта? <span
+                            class="accordion__icon"></span> </h3>
+                    <div class="accordion__content">
+                        <p class="accordion__descr">
+                            Являясь всего лишь частью общей картины, непосредственные участники технического
+                            прогресса призывают нас
+                            к&nbsp;новым свершениям, которые, в&nbsp;свою очередь, должны быть своевременно
+                            верифицированы.
+                            Но&nbsp;высококачественный прототип будущего проекта является качественно новой ступенью
+                            первоочередных требований. А&nbsp;ещё некоторые особенности внутренней политики, которые
+                            представляют собой яркий пример континентально-европейского типа политической культуры,
+                            будут объявлены нарушающими общечеловеческие нормы этики и&nbsp;морали. И&nbsp;нет
+                            сомнений, что явные признаки победы институционализации призывают нас к&nbsp;новым
+                            свершениям, которые, в&nbsp;свою очередь, должны быть указаны как претенденты
+                            на&nbsp;роль ключевых факторов. <br>
+                            Приятно, граждане, наблюдать, как некоторые особенности внутренней политики могут быть
+                            призваны к&nbsp;ответу. Явные признаки победы институционализации набирают популярность
+                            среди определённых слоёв населения,
+                            а&nbsp;значит, должны быть объединены в&nbsp;целые кластеры себе подобных. Банальные,
+                            но&nbsp;неопровержимые выводы,
+                            а&nbsp;также многие известные личности призывают нас к&nbsp;новым свершениям, которые,
+                            в&nbsp;свою очередь, должны быть представлены в&nbsp;исключительно положительном свете.
+                        </p>
+                    </div>
+                    <h3 class="accordion__title">У&nbsp;меня есть свой проект. Сможем&nbsp;ли мы&nbsp;его
+                        доработать&nbsp;/ реализовать? <span class="accordion__icon"></span> </h3>
+                    <div class="accordion__content">
+                        <p class="accordion__descr">
+                            Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+                            purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+                            velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+                            suscipit faucibus urna.
+                        </p>
+                    </div>
+                    <h3 class="accordion__title">Я&nbsp;выбираю между разными компаниями. В&nbsp;чём ваше отличие? <span
+                            class="accordion__icon"></span> </h3>
+                    <div class="accordion__content">
+                        <p class="accordion__descr">
+                            Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+                            Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+                            ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+                            lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+                        </p>
+                    </div>
+                    <h3 class="accordion__title">Могу&nbsp;ли я&nbsp;делегировать вам работу&nbsp;/ согласование
+                        с&nbsp;подрядчиком / организацией? <span class="accordion__icon"></span> </h3>
+                    <div class="accordion__content">
+                        <p class="accordion__descr">
+                            Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+                            et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+                            faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+                            mauris vel est.
+                        </p>
+                    </div>
+                    <h3 class="accordion__title">Могу&nbsp;ли я&nbsp;вернуть деньги на&nbsp;каком-либо из&nbsp;этапов
+                        работ? <span class="accordion__icon"></span> </h3>
+                    <div class="accordion__content">
+                        <p class="accordion__descr">
+                            Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+                            et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+                            faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+                            mauris vel est.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -549,6 +518,8 @@
         </div>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="/index.js"></script>
 

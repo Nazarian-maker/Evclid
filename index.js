@@ -18,9 +18,34 @@ document.querySelectorAll('.work__step').forEach(function (e) {
             e.classList.remove('tab-content--active')
             document.querySelector(`[data-target='${tab}']`).classList.add('tab-content--active');
 
+        })
+
+    })
+
+    /*Выделение активной кнопки*/
+
+    e.addEventListener('click', function (el) {
+
+        const tabDefault = el.currentTarget.dataset.default;
+        document.querySelectorAll('.work__step').forEach(function (e) {
+
+            e.classList.remove('work__steps--active')
+            document.querySelector(`[data-path='${tabDefault}']`).classList.add('work__steps--active');
 
         })
 
     })
 
 })
+
+/*accordiaon*/
+
+$(function () {
+
+    $("#accordion").accordion({
+
+        collapsible: true,
+
+    });
+
+});
