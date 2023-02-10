@@ -652,7 +652,8 @@ img {
 }
 
 .ui-accordion-content {
-    height: auto;
+    height: auto !important;
+    /* стили заданы уже в самом фреймворке, надо перебить */
     padding-bottom: 40px;
 }
 
