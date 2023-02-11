@@ -97,6 +97,7 @@
         width: 30px;
         height: 23px;
         display: block;
+        outline: none;
     }
 
     .menu-close {

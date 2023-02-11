@@ -657,12 +657,10 @@ img {
     padding-bottom: 40px;
 }
 
-.questions__accordion {
-    border-bottom: 1px solid #CACACA;
-}
-
 .accordion__title {
     border-top: 1px solid #CACACA;
+    border-bottom: 1px solid #CACACA;
+    margin-bottom: -1px;
     padding: 39px 0;
     padding-right: 55px;
     margin: 0;
@@ -670,6 +668,7 @@ img {
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
+    transition: border-color .3s ease-in-out, color .3s ease-in-out;
 }
 
 .accordion__icon {
@@ -684,7 +683,32 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-color: #cacaca;
+    outline: none;
     transition: transform .3s ease-in-out;
+}
+
+.ui-state-focus {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+    z-index: 10;
+    transition: border-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+.ui-state-focus .accordion__icon {
+    background-color: var(--color-accent);
+    transition: background-color .3s ease-in-out;
+}
+
+.ui-state-hover {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+    z-index: 10;
+    transition: border-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+.ui-state-hover .accordion__icon {
+    background-color: var(--color-accent);
+    transition: background-color .3s ease-in-out;
 }
 
 .ui-state-active .accordion__icon {
