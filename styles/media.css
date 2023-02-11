@@ -151,6 +151,13 @@
         top: 0;
     }
 
+    .burger:active span,
+    .burger:active::after,
+    .burger:active::before {
+        background-color: #e1670e;
+        transition: background-color .3s ease-in-out;
+    }
+
     .stop-scroll {
         overflow: hidden;
     }
@@ -699,6 +706,7 @@
 
     .footer__form {
         gap: 23px;
+        margin-bottom: 12px;
     }
 
     .form__title {
@@ -746,7 +754,8 @@
     }
 
     .footer__left {
-        padding-top: 29px;
+        border-top: 1px solid #595959;
+        padding-top: 17px;
         align-items: center;
     }
 
