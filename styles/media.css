@@ -582,6 +582,7 @@
 
     .advantage__btn {
         border: 2px solid #FF9900;
+        color: #fff;
         border-radius: 8px;
         margin-bottom: 18px;
     }
